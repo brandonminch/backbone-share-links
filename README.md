@@ -5,7 +5,9 @@ Backbone template for adding Twitter, Facebook and Google+ share links.
 ### Dependencies
 
 http://platform.twitter.com/widgets.js
+
 http://connect.facebook.net/en_US/all.js#xfbml=1
+
 https://apis.google.com/js/plusone.js
 
 ### Example Markup
@@ -22,7 +24,7 @@ https://apis.google.com/js/plusone.js
 		'el': $('#share'),
 		'model': new ShareModel({
 			'shareCopy': 'Text to share.',
-			'useBitly': true, // Use bitly to shorten shared URL. Default is true.
+			'useBitly': true, // Use bitly to shorten shared URL? Default is true.
 			'networks': {
 				'Facebook': {
 					'appendUrlToDescription': true, // Append url to end of share text? Default is false.
