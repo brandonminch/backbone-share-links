@@ -111,4 +111,4 @@ var ShareModel = Backbone.Model.extend({
 		twitter.content = encodeURIComponent(model.o.shareCopy);
 		this.trigger('success:twitter', twitter.rootUrl + this.o.originUrl + '&source=tweetbutton&text=' + twitter.content + '&url=' + this.o.shareUrl);
 	}
-});d
+});
